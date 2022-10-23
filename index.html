@@ -4,7 +4,93 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Welcome to RCE's personal website</title>
   </head>
-  <body></body>
+  <body>
+    <section>
+      <nav>
+        <img src="./assets/welcome-svgrepo-com.svg" alt="welcome-svgrepo-com" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#github">Github</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div>
+          <h1>Welcome to my website</h1>
+          <p>Still learning the basics of web development</p>
+          <h3>
+            Icons by
+            <a href="https://www.svgrepo.com" target="_blank">svgrepo.com</a>
+          </h3>
+        </div>
+        <figure>
+          <img
+            src="./assets/coding-html-svgrepo-com.svg"
+            alt="coding-html-svgrepo-com"
+          />
+        </figure>
+      </header>
+    </section>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div>
+          <p>A middle aged kid trying to learn web applications development</p>
+        </div>
+      </section>
+      <figure>
+        <img
+          src="./assets/user-programming-language-svgrepo-com.svg"
+          alt="user-programming-language-svgrepo-com"
+        />
+      </figure>
+
+      <section id="github">
+        <h2>Github</h2>
+        <figure>
+          <a href="https://github.com/m4ndr4ke" target="_blank">
+            <img
+              src="./assets/github-svgrepo-com.svg"
+              alt="github-svgrepo-com"
+            />
+          </a>
+        </figure>
+        <div>
+          <p>Not that much happening, but i'm trying to be active.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form
+          action="mailto:romuluseelis@gmx.com.com"
+          method="post"
+          enctype="text/plain"
+          id="nameform"
+        >
+          <span>E-mail:</span>
+          <input type="email" name="mail" />
+          <span>Comment:</span>
+          <textarea
+            type="text"
+            name="comment"
+            placeholder="Type your message here"
+          ></textarea>
+        </form>
+        <button type="submit" form="nameform" value="Submit">Submit</button>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <a href="#about">About</a>
+        <a href="#github">Github</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p>Copyright &copy m4ndr4ke</p>
+    </footer>
+  </body>
 </html>
