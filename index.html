@@ -15,7 +15,7 @@
           <h1>Welcome!</h1>
         </div>
         <ul class="nav1ul">
-          <li class="nav1li"><a href="#about">About</a></li>
+          <li class="nav1li"><a href="#education">Education</a></li>
           <li class="nav1li"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -24,8 +24,9 @@
           <h1>Hello,</h1>
           <br />
           <p>
-            I am a 45 year old Computer Science graduate with background on C
-            programming languange and Foxpro MS-DOS programming.
+            I am a 45 year old Computer Science graduate from the Philippines
+            with background on C programming languange and Foxpro MS-DOS
+            programming.
           </p>
           <br />
           <p>
@@ -41,18 +42,19 @@
         </div>
       </header>
     </section>
-
+    <hr />
     <main>
-      <section id="about">
+      <section id="education">
         <div>
-          <h2>About</h2>
+          <h2>Education</h2>
           <br />
-          <p>Born and currently residing in the Philippines.</p>
-          <br />
-          <h3>Education</h3>
-          <ul class="edulist">
-            <li>Bachelor of Science in Computer Science</li>
-          </ul>
+          <h3>
+            Bachelor of Science in Computer Science,
+            <a href="https://www.ama.edu.ph/" target="_blank">
+              AMACC, Makati
+            </a>
+          </h3>
+
           <br />
 
           <h3>Specialization Courses</h3>
@@ -79,9 +81,19 @@
               >
             </li>
           </ul>
+          <br />
+          <h3>Other short courses taken</h3>
+          <ul class="edulist">
+            <li>
+              PC Assembly, Hardware and Software Troubleshooting/Repair,
+              <a href="https://www.cnctc.edu.ph/" target="_blank"
+                >CNCTC, Inc.</a
+              >
+            </li>
+          </ul>
         </div>
       </section>
-
+      <hr />
       <section id="contact">
         <h2>Contact</h2>
         <form
@@ -98,14 +110,16 @@
             name="comment"
             placeholder="Type your message here"
           ></textarea>
+          <br />
+          <button type="submit" form="nameform" value="Submit">Submit</button>
         </form>
-        <button type="submit" form="nameform" value="Submit">Submit</button>
       </section>
     </main>
 
     <footer>
+      <img src="./assets/monke.png" alt="monkey_logo" class="logo" />
       <div>
-        <a href="#about">About</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </div>
       <p>Copyright &copy m4ndr4ke</p>

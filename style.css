@@ -7,13 +7,25 @@
   font-family: "Roboto", sans-serif;
 }
 
-nav {
+nav,
+footer {
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
   background-color: royalblue;
+}
+
+footer {
+  flex-direction: column;
+  padding: 10px;
+  height: 150px;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 .nav1div {
@@ -61,7 +73,28 @@ a {
   font-weight: bold;
 }
 
-#about {
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  font-size: 24px;
+}
+
+input,
+textarea {
+  font-size: 24px;
+}
+
+button {
+  font-size: 24px;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+#education,
+#contact {
   padding: 30px;
 
   align-items: center;
@@ -70,6 +103,10 @@ a {
   color: black;
   font-size: 24px;
   font-weight: bold;
+}
+
+#contact {
+  background-color: aliceblue;
 }
 
 .edulist {
