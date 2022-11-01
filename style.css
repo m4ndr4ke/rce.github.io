@@ -24,6 +24,24 @@ nav {
   align-items: center;
 }
 
+.nav1ul {
+  display: flex;
+}
+
+.nav1li {
+  list-style-type: none;
+  padding-left: 16px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logoheader {
+  width: 375px;
+  height: 300px;
+}
+
 header {
   background-color: floralwhite;
   /*height: calc(100vh - 80px);*/
@@ -43,19 +61,17 @@ a {
   font-weight: bold;
 }
 
-.logo {
-  width: 100px;
+#about {
+  padding: 30px;
+
+  align-items: center;
+  justify-content: space-between;
+
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.logoheader {
-  width: 375px;
-  height: 300px;
-}
-ul {
-  display: flex;
-}
-
-li {
+.edulist {
   list-style-type: none;
-  padding-left: 16px;
 }
