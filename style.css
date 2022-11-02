@@ -112,3 +112,57 @@ button {
 .edulist {
   list-style-type: none;
 }
+
+@media (max-width: 720px) {
+  nav {
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    background-color: royalblue;
+    display: block;
+  }
+
+  .nav1div {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navmain {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav1ul {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav1li {
+    list-style-type: none;
+    padding-left: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header {
+    background-color: floralwhite;
+    /*height: calc(100vh - 80px);*/
+    padding: 30px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
